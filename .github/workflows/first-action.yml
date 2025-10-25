@@ -7,6 +7,8 @@ jobs:
    - name: Welcome Greeting
      run: echo "Welcome to GH Actions !"
    - name: First steps
-     run: echo "This is my first step in first workflow"  
+     run: echo "This is my first step in first workflow" 
+   - name: Second steps
+     run: echo "This is my second step in first workflow"   
    - name: Thankyou Greeting
      run: echo "Thank You !"
