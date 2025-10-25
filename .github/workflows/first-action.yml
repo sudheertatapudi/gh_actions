@@ -1,0 +1,10 @@
+name: first_workflow
+on: workflow_dispatch
+ jobs:
+  first_job:
+   runs_on: ubuntu_latest
+   steps:
+    - name: Welcome greeting
+      run: echo "Welcome to GH Actions !"
+    - name: Thankyou greeting
+      run: echo "Thank you !"
